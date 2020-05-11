@@ -1,5 +1,5 @@
 private func uploadImageStackOverFlow() {
-        let url = URL(string: "https://www.tallico.com/upload/image.php");
+        let url = URL(string: "upload/image.php");
         let request = NSMutableURLRequest(url: url!);
         request.httpMethod = "POST"
         let boundary = "Boundary-\(NSUUID().uuidString)"
